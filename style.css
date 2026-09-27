@@ -68,7 +68,7 @@ h1 {
 }
 
 p {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 18px;
     color: #D1D5DB;
     margin: 0;
@@ -187,5 +187,12 @@ p {
     border-style: solid;
     color: white;
     font-weight: 700;
+}
 
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:32px;
 }
