@@ -68,9 +68,9 @@ h1 {
 }
 
 p {
-    font-weight: 400;
+    font-weight: 200;
     font-size: 18px;
-    color: lightgrey;
+    color: #D1D5DB;
     margin: 0;
 }
 
@@ -153,5 +153,39 @@ p {
     font-weight: 700;
     font-size:24px;
     text-align: end;
+
+}
+.section4 {
+    display: flex;
+    
+    justify-content: center;
+}
+.sign-up {
+    max-width:1000px;
+    background-color: #3882F6;
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: space-around;
+    margin:48px;
+    padding:32px;
+    border-radius: 6px;
+}
+.sign-up-text h1 {
+    font-size: 32px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    font-weight: 700;
 
 }
